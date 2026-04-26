@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multimedia</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Galeri Multimedia</h1>
+
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./form.html">Daftar</a>
+        <a href="./gallery.html">Multimedia</a>
+    </nav>
+</header>
+
+<section class="container">
+
+    <h2>Gambar</h2>
+    <img id="gambar" src="https://picsum.photos/500/300" width="500">
+    <br><br>
+    <button onclick="gantiGambar()">Ganti Gambar</button>
+
+    <h2>Video</h2>
+    <iframe width="500" height="300"
+    src="Vidio anak-anak.mp4">
+    </iframe>
+
+    <h2>Audio</h2>
+    <audio id="musik">
+        <source src="Audio Anak-Anak.mp3" type="audio/mpeg">
+    </audio>
+    <br><br>
+    <button onclick="playAudio()">Play</button>
+    <button onclick="pauseAudio()">Pause</button>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
